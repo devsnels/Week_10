@@ -1,0 +1,22 @@
+---
+title: "Practice"
+author: "Devin Nelson"
+date: "10/24/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries}
+library(stringr)
+library(knitr)
+library(rmarkdown)
+library(dplyr)
+```
+
+
+```{r list files}
+list.files('/Users/devinnelson/Desktop/Week_10/data')
+```
